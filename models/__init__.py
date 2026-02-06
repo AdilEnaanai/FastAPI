@@ -6,6 +6,7 @@ Facilite l'import des modèles depuis d'autres fichiers.
 from .client import Client
 from .facture import Facture, StatutFacture
 from .reclamation import Reclamation,StatutReclamation
+from .user import User, Role
 
 # Permet d'importer directement : from models import Client, Facture
-__all__ = ["Client", "Facture", "StatutFacture", "Reclamation", "StatutReclamation"]
+__all__ = ["Client", "Facture", "StatutFacture", "Reclamation", "StatutReclamation","User", "Role"]
